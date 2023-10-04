@@ -28,7 +28,7 @@ module hollowCylinder_DefineInnerDiameter(d=5, h=10, wallWidth=1, $fn=128)
 {
 	difference()
 	{
-		cylinder(d=d+(wallWidth*2), h=h+0.2);
-		translate([0, 0, -0.1]) { cylinder(d=d, h=h); }
+		cylinder(d=d+(wallWidth*2), h);
+		translate([0, 0, -0.1]) { cylinder(d=d, h=h+0.2); }
 	}
 }
