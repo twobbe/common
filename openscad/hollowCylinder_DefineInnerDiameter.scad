@@ -14,6 +14,7 @@
 	Change Log
 	==========
 	2017-01-04: v1.0.0 - Initial Release
+	2023-09-28: v1.0.1 - Changed to defining inner hole diameter instead of outer wall
 */
 
 // Example code:
